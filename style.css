@@ -59,8 +59,8 @@
 .main-container {
     display: flex;
     flex-direction: row;
-    margin: 150px;
-    /* margin-left: 150px; */
+    margin: 100px;
+    padding: 10px;
 }
 
 .main-content span {
@@ -75,13 +75,13 @@
     font-size: var(--Roboto);
     font-size: 54px;
     font-weight: bold;
-    line-height: 3em;
 }
 
 .main-content p {
     max-width: 400px;
     color: white;
     font-size: 20px;
+    margin-top: 10px;
 }
 
 .main-input input {
@@ -109,8 +109,9 @@
 }
 
 .main-image img{
-    height: 550px;
-    margin-left: 200px;
+    height: 500px;
+    width: 500px;
+    margin-left: 250px;
 }
 
 
